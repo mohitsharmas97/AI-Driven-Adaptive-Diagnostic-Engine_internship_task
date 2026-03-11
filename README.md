@@ -3,6 +3,11 @@
 A full-stack adaptive testing system built with **FastAPI** + **React Vite** that uses **1D Item Response Theory (IRT)** to dynamically calibrate question difficulty in real-time, and **OpenAI GPT** to generate personalized study plans after each session.
 
 ---
+<img width="1711" height="942" alt="image" src="https://github.com/user-attachments/assets/0e36b556-85aa-40ff-9ecf-235ae298d509" />
+<img width="1469" height="943" alt="image" src="https://github.com/user-attachments/assets/5ee37072-5b59-4c95-96ad-00a587c03036" />
+<img width="1222" height="916" alt="image" src="https://github.com/user-attachments/assets/edb1b515-b913-40fe-ad6f-57084c0accb6" />
+<img width="1191" height="945" alt="image" src="https://github.com/user-attachments/assets/721af24c-0882-41de-8c38-dc6c548816c4" />
+
 
 ## Tech Stack
 
