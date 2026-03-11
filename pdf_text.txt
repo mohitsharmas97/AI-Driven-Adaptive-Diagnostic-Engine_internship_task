@@ -1,0 +1,54 @@
+Intern Assignment: AI-Driven Adaptive Diagnostic Engine 
+This is a professional-grade assignment description designed to filter for architectural 
+thinking and AI-augmented productivity. 
+Overview 
+At our core, we aim to revolutionize how students learn by making assessments smarter. 
+Your task is to build a 1-Dimension Adaptive Testing Prototype. This system should 
+determine a student's proficiency level by dynamically selecting questions based on their 
+previous answers. 
+Tools Allowed 
+We encourage the use of Cursor.ai, ChatGPT, Claude, or GitHub Copilot. We aren't testing 
+your ability to memorize syntax; we are testing your ability to build robust, scalable AI 
+systems. 
+Tech Stack Requirements: 
+* Database: MongoDB (Atlas or Local) 
+* Language: Python (FastAPI or Flask preferred for the backend) 
+* AI Integration: OpenAI API or Anthropic API 
+* Architecture: Clean, modular code with clear separation of concerns. 
+The Task: 
+Phase 1: Data Modeling (MongoDB) 
+Design and seed a MongoDB collection of at least 20 GRE-style questions. 
+* Each question must have a `difficulty` score (0.1 to 1.0). 
+* Include metadata: `topic` (e.g., Algebra, Vocabulary), `tags`, and `correct_answer`. 
+* Create a `UserSession` collection to track a student's progress and current estimated 
+ability. 
+Phase 2: The Adaptive Algorithm 
+Implement a 1D Adaptive Logic in Python. 
+1. Starting Point: The student begins at a baseline difficulty of 0.5. 
+2. The Loop: If the student gets a question correct, the next question should be harder. If 
+incorrect, the next question should be easier. 
+3. Refinement: Use IRT (Item Response Theory) approach to update the user’s "Ability 
+Score" after every response. 
+Phase 3: AI Insights (The bonus) 
+Integrate an LLM to provide a Personalized Learning Plan. 
+* Once the test ends (e.g., after 10 questions), send the student's performance data (topics 
+missed, difficulty level reached) to an LLM. 
+* Generate a 3-step study plan tailored to their specific weaknesses. 
+Deliverables: 
+1. Source Code: A GitHub repository link. 
+2. README.md:  
+* Instructions on how to run the project. 
+* A brief explanation of your adaptive algorithm logic. 
+* The "AI Log": A short section describing how you used AI tools (Cursor/ChatGPT) to speed 
+up your development and any challenges the AI couldn't solve. 
+3. API Documentation: A simple list of endpoints (e.g., `GET /next-question`, `POST 
+/submit-answer`). 
+Evaluation Criteria 
+Criteria & What we are looking for: 
+1. System Design - How you structured the MongoDB schema for performance. 
+2. Algorithmic Logic - Is your adaptive logic mathematically sound or just a random jump? 
+3. AI Proficiency - Efficient use of LLM prompts for generating the study plan. 
+4. Code Hygiene - Proper error handling, environment variable usage, and typing. 
+ 
+> We value quality over quantity. A perfectly functioning 5-question demo with a solid 
+algorithm and clean code is better than a broken 50-question system. 
